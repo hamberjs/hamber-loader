@@ -1,0 +1,40 @@
+{
+  "name": "hamber-loader",
+  "version": "2.13.6",
+  "author": "NKDuy",
+  "description": "A webpack loader for hamber",
+  "license": "MIT",
+  "scripts": {
+    "all": "npm run lint",
+    "lint": "eslint index.js lib/*.js"
+  },
+  "keywords": [
+    "hamber",
+    "hamberjs",
+    "webpack-loader"
+  ],
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "hamber-dev-helper": "^1.1.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.5",
+    "sinon-chai": "^3.2.0",
+    "hamber": "^3.0.0-beta.21"
+  },
+  "peerDependencies": {
+    "hamber": ">2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hamberjs/hamber-loader.git"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ]
+}
