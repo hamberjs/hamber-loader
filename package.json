@@ -14,7 +14,7 @@
     "webpack-loader"
   ],
   "dependencies": {
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^3.2.1",
     "hamber-dev-helper": "^1.1.9"
   },
   "devDependencies": {
